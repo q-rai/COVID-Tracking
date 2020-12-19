@@ -1,2 +1,4 @@
 # COVID-Tracking
-COVID Stats for Hard Knox Roller Derby (Tennessee).
+This is some processing and visualization code I'm using to maintain a [COVID-19 dashboard](https://docs.google.com/spreadsheets/d/1TUHTBesCkcC_QUTzZ0tTgrumcMO6SM8iA9R1vkcAcIg/edit#gid=0) for my roller derby team, Hard Knox Roller Derby. The [dashboard in its initial version](https://docs.google.com/spreadsheets/d/1eNej9J8C1-V1mnuNaPlABwvz53kn3-iUWvSt_oAK5bg/edit#gid=551732705) was developed by Daniel Sauer (Bear City Roller Derby) and made available for general use by the roller derby community to keep track of the WFTDA Return to Play guidelines.
+
+Using the code in this notebook, I'm pulling in the "County New" data from [Tennessee's COVID-19 Page](https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html), so this is easy to adapt to work for any counties in Tennessee. To adapt for other data sources, you'll have to update the link and column names. For everything to work, you'll need columns for new cases, active cases, total confirmed cases, and deaths.
